@@ -149,12 +149,10 @@ font-family: 'eraslight';
 
 #footerdiv {
     background-color: #ffffff;
+    text-align: center;
 }
 
-#footerdiv p{
-    color: #7d5616;
-    font-family: 'martiresreg';
-}
+
 
 #footerdiv a{
     color: #7d5616;
@@ -207,6 +205,42 @@ input:focus {
 
 .col-lg-6 p{
     color: #000000;
-    font-family: 'erasmd';
+    font-family: 'eraslight';
     text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+
+    .hero-image {
+        height: 35%;
+      }
+
+    .hero-text h1 {
+        font-size: 20px;
+    }
+    .hero-text p {
+        font-size: 11px;
+    }
+
+    .karten {
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+
+    .generaldiv {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .customcard {
+        padding-top: 30px;
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 300px;
+        margin: 0 auto;
+
+    }
+
+
+
 }
